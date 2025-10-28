@@ -65,9 +65,9 @@ def main():
 
         print(f"\nStrength: {label}  (score {score}/5)")
         if valid:
-            print("✅ Password meets all requirements.")
+            print("Password meets all requirements.")
         else:
-            print("❌ Password does NOT meet the following requirements:")
+            print("Password does NOT meet the following requirements:")
             for f in failures:
                 print("  -", f)
 
@@ -76,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
